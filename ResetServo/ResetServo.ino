@@ -17,23 +17,40 @@ void setup() {
   pwm.setPWMFreq(60);  // Set frequency to 60 Hz
   delay(10);  // Short delay for the servo driver to stabilize
   moveServo(0, 90);
-  moveServo(1, 90);
-  moveServo(2, 90);
-  delay(1000);
-  moveServo(2, 180);
-  delay(1000);
-  moveServo(2, 0);
-  delay(1000);
-  moveServo(2, 90);
-  delay(1000);
-  moveServo(0,0);
-  moveServo(1,180);
   delay(1000);
   moveServo(0, 180);
-  moveServo(1,0);
-  delay(1000);
+  delay(3000);
+  moveServo(0, 0);
+  delay(3000);
   moveServo(0, 90);
-  moveServo(1,90);
+  moveServo(1, 90);
+  moveServo(2, 90);
+  moveServo(3, 90);
+  delay(1000);
+  moveServo(1, 180);
+  moveServo(2, 180);
+  delay(1000);
+  moveServo(1, 0);
+  moveServo(2, 0);
+  delay(1000);
+  moveServo(1, 90);
+  moveServo(2, 90);
+  // moveServo(2, 90);
+  // delay(1000);
+  // moveServo(3, 180);
+  // delay(1000);
+  // moveServo(3, 0);
+  // delay(1000);
+  // moveServo(3, 90);
+  // delay(1000);
+  // moveServo(0,0);
+  // moveServo(1,180);
+  // delay(1000);
+  // moveServo(0, 180);
+  // moveServo(1,0);
+  // delay(1000);
+  // moveServo(0, 90);
+  // moveServo(1,90);
 
   // for(int i = 90; i < 180; i+=5) {
   //   moveServo(0, i);
@@ -46,9 +63,9 @@ void setup() {
   //   moveServo(1, i);
   //   delay(1);
   // }
-  delay(1000);
+  // delay(1000);
   //moveServo(2, 90);
-  delay(1000);
+  // delay(1000);
   // moveServo(2, 0);
   // delay(1000);
 
