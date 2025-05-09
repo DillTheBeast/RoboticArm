@@ -1,11 +1,11 @@
-#include <Arduino.h>
+#include "Arduino.h"
 
 #define DIR1 2
-#define DIR2 8
+#define DIR2 4
 #define DIRB 12
 
 #define PUL1 3
-#define PUL2 9
+#define PUL2 5
 #define PULB 11
 
 void setup() {

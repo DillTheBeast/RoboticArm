@@ -7,7 +7,7 @@ from pydub import AudioSegment
 from pydub.playback import play
 
 # Adjust this to your Arduino's serial port
-ARDUINO_PORT = "/dev/tty.usbmodem1101"  
+ARDUINO_PORT = "/dev/cu.usbmodem101"  
 BAUD_RATE = 9600  
 
 # Connect to Arduino
